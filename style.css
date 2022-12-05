@@ -1,0 +1,39 @@
+body{
+    margin: 0px 0px;
+}
+.box1{
+    margin: 0px 0px;
+    background-color: #152238;
+    margin: 0px auto;
+    text-align: center;
+    color: azure;
+    padding: 20px 20px;
+    font-size: x-large;
+}
+.container{
+    margin: 0px 0px;
+    margin:  auto ;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+}
+hr{
+    background-color: orange;
+    height: 3px;
+    margin: 0px 0px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+div{
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+}
+img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
